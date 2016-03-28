@@ -104,7 +104,7 @@
 					<label for="select-state">States:</label>
 					<select id="select-state" name="state[]" multiple class="demo-default" style="width:50%" placeholder="Select a state...">
 						<option value="">Select a state...</option>
-						<option value="AL">Alabama</option>
+						<option value="AL">admin-username-password-usr-database-admin-username-mysql-long-name</option>
 						<option value="AK">Alaska</option>
 						<option value="AZ">Arizona</option>
 						<option value="AR">Arkansas</option>
@@ -159,7 +159,8 @@
 				</div>
 				<script>
 				$('#select-state').selectize({
-					maxItems: 3
+					maxItems: 3,
+					dropdownParent: 'body'
 				});
 				</script>
 			</div>
